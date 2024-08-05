@@ -96,7 +96,7 @@ func SetPdfModifiedDate(modifiedDate time.Time) {
 
 func getPdfProducer() string {
 	// Return default.
-	return fmt.Sprintf("UniDoc v%s (%s) - http://unidoc.io", getUniDocVersion(), licenseKey.TypeToString())
+	return fmt.Sprintf("UniDoc v%s - http://unidoc.io", getUniDocVersion())
 }
 
 // SetPdfProducer sets the Producer attribute of the output PDF.
